@@ -11,6 +11,7 @@ import { CardReportComponent } from './card-report/card-report.component';
 import { ManageCardsComponent } from './manage-cards/manage-cards.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
+import { CardsSnapshotComponent } from './cards-snapshot/cards-snapshot.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FootBarComponent } from './foot-bar/foot-bar.component';
     NavBarComponent,
     CardReportComponent,
     ManageCardsComponent,
-    FootBarComponent
+    FootBarComponent,
+    CardsSnapshotComponent
   ],
   imports: [
     BrowserModule,
