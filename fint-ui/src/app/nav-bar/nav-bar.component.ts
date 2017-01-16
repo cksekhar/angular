@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import { CardReportComponent } from './../card-report/card-report.component';
+
 
 @Component({
   selector: 'app-nav-bar',

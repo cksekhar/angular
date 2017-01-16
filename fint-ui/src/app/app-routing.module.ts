@@ -22,7 +22,10 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
     // other imports here
   ],
-  
+
+  exports: [
+    RouterModule
+  ]
 })
 
 export class AppRoutingModule { }
